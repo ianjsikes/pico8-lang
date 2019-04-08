@@ -1,0 +1,26 @@
+{
+    "name": "pico8-lang",
+    "displayName": "pico8-lang",
+    "description": "Language support for PICO-8",
+    "version": "0.0.1",
+    "publisher": "ianjsikes",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pico-8",
+            "aliases": ["PICO-8", "pico-8"],
+            "extensions": [".lua",".p8"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pico-8",
+            "scopeName": "source.pico8",
+            "path": "./syntaxes/pico-8.tmLanguage.json"
+        }]
+    }
+}
