@@ -2,7 +2,7 @@
   "name": "pico8-lang",
   "displayName": "pico8-lang",
   "description": "Language support for PICO-8",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "ianjsikes",
   "repository": "https://github.com/ianjsikes/pico8-lang",
   "engines": {
